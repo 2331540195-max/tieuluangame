@@ -4,7 +4,7 @@ public class CanvasSwitcher : MonoBehaviour
 {
     [SerializeField] private GameObject canvasA;
     [SerializeField] private GameObject canvasB;
-    [SerializeField] private Teammate teammateScript; 
+  
 
     public void SwitchCanvas()
     {
@@ -13,8 +13,5 @@ public class CanvasSwitcher : MonoBehaviour
 
         if(canvasA != null)
             canvasA.SetActive(false); 
-
-        if(teammateScript != null)
-            teammateScript.enabled = false; 
     }
 }

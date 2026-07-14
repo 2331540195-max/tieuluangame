@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EnemyFaceActivePlayer : MonoBehaviour
+public class EnemyFlip : MonoBehaviour
 {
     public Transform[] players; // 4 player
 
